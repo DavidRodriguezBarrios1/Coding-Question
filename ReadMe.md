@@ -20,11 +20,11 @@ This Python script generates a list of integers from 1 to N, shuffles them using
 
 3. When prompted enter the N value you would like to iterate over.
 
-## Explanation of Language of Choice and Built In Function
+## Explanation of Language of Choice and Built-In Function
 
-The reason I chose Python is because syntactically it is easy and straight forward to read. Any high level interpreted languages such as JavaScript, Python, etc implementing a Shuffle algorithm would take longer than lower level languages.
+The reason I chose Python is because syntactically it is easy to read. In any high-level interpreted languages such as JavaScript, Python, etc implementing a Shuffle algorithm would take longer than lower level languages.
 
-The random.shuffle() function in Python uses the Fisher-Yates shuffle algorithm. It operates in an O(N) time complexity, where N is the number of items in the list. If I were always optimizing for speed, I would always opt for a lower level built in function when possible.
+The random.shuffle() function in Python uses the Fisher-Yates shuffle algorithm. It operates in an O(N) time complexity, where N is the number of items in the list. If I were always optimizing for speed, I would always opt for a lower-level built-in function when possible.
 
 ## Explanation of the Fisher-Yates Shuffle Algorithm
 
@@ -34,10 +34,10 @@ The Fisher-Yates algorithm works by iterating through the list from the last ele
 
 1. Start from the last index of the list.
 2. Pick a random index from 0 to the current index.
-3. Swap the element at the current index with the randomly chose index's element.
+3. Swap the element at the current index with the randomly chosen index's element.
 4. Move to the previous index and repeat until the beginning of the list is reached.
 
-### Limitiations of The Fisher-Yates Shuffle Algorithm
+### Limitations of The Fisher-Yates Shuffle Algorithm
 
 As larger integers are selected the memory complexity becomes too high, making it impractical.
 
